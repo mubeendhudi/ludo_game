@@ -157,9 +157,9 @@ class BoardPainter extends CustomPainter {
   }) {
     final path = Path();
     const points = 5;
+    const halfAngle = pi / points;
     final outerRadius = radius;
     final innerRadius = radius * 0.45;
-    final halfAngle = pi / points;
     var angle = -pi / 2;
 
     path.moveTo(
